@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    title Pickador
+    
+    link(rel="apple-touch-icon", sizes="57x57", href="icon/apple-icon-57x57.png")
+    link(rel="apple-touch-icon", sizes="72x72", href="icon/apple-icon-72x72.png")
+    link(rel="apple-touch-icon", sizes="76x76", href="icon/apple-icon-76x76.png")
+    link(rel="apple-touch-icon", sizes="114x114", href="icon/apple-icon-114x114.png")
+    link(rel="apple-touch-icon", sizes="120x120", href="icon/apple-icon-120x120.png")
+    link(rel="apple-touch-icon", sizes="144x144", href="icon/apple-icon-144x144.png")
+    link(rel="apple-touch-icon", sizes="152x152", href="icon/apple-icon-152x152.png")
+    link(rel="apple-touch-icon", sizes="180x180", href="icon/apple-icon-180x180.png")
+    link(rel="icon", type="image/png", sizes="192x192", href="icon/android-icon-192x192.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="icon/android-icon-32x32.png")
+    link(rel="icon", type="image/png", sizes="96x96", href="icon/android-icon-96x96.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="icon/android-icon-16x16.png")
+    link(rel="manifest", href="icon/manifest.json")
+    meta(ame="msapplication-TileColor", content="#434b5c")
+    meta(name="msapplication-TileImage", content="icon/ms-icon-144x144.png")
+    meta(name="theme-color", content="#434b5c")
+    
+    meta(charset="UTF-8")
+    meta(name="author" content="Szymon Stypa")
+    meta(name="description", content="Pickador, filtering your social media feeds")
+    meta(name="viewport", content="initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi user-scalable=no")
+    meta(name="keywords", content="Pickador, app, filter, social, media, appstore, connect, feeds, swipe")
+    
+    link(rel="stylesheet", href='css/lib/bootstrap.min.css')
+    link(rel="stylesheet", href='css/lib/font-awesome.min.css')
+    link(rel="stylesheet", type="text/css", href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css")
+    link(rel="stylesheet", href='css/lib/animate.css')
+    link(rel="stylesheet", href='css/style.css')
+  body
+  
+    div.page-wrapper
+
+      div.stars.rotating
+    
+      div.content
+        
+        div.legal.hide
+          a(href="/legal/privacy_policy.pdf", target="_blank") Privacy Policy
+          a(href="/legal/terms_of_service.pdf", target="_blank") Terms of Service
+          a(href="#", onclick="return false;").back Back
+          
+        div.iphone-wrapper.animated.fadeInRight
+          div
+            img(src="img/1.png")
+          div
+            img(src="img/2.png")
+          div
+            img(src="img/3.png")
+          div
+            img(src="img/4.png")
+          div
+            img(src="img/5.png")
+      
+        div.text.animated.fadeInLeft
+          div.title
+            img(src='img/vald_ikon-01.png')
+            p pickador
+          div.desc
+            p Making Twitter interesting again
+          div.appstore
+            a(href="http://itunes.apple.com/app/id1076681630")
+              img(src="img/appstore.svg")
+        
+        
+      div.footer
+      
+          div.psst
+            p We welcome every review with open<br>arms, to make Pickador better for you <red>&#10084</red>
+      
+          div.icons
+            a.fa.fa-twitter-square.fa-3x(href="https://twitter.com/pickadorapp", target="_blank")
+            a.fa.fa-facebook-square.fa-3x(href="https://www.facebook.com/Pickadorapp/", target="_blank")
+            a.fa.fa-instagram.fa-3x(href="https://www.instagram.com/pickadorapp/", target="_blank")
+          
+          div.cats
+            a(href="/press.html").cat.clickable Press
+            a(href="mailto:contact@pickadorapp.com").cat.clickable Contact
+            div.cat.clickable.showlegal Legal
+    
+
+  
+    script(src='js/lib/jquery.min.js')
+    script(src='js/lib/bootstrap.min.js')
+    script(src='//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js')
+    script(src='js/main.js')
+    
+    span#webstat
+      script(src="http://stats.webstat.se/assets/stat_isp2.php")
+      script.
+        document.write("<" + "script src=\"http://stats.webstat.se/statCounter.asp?id=38604&size=" + screen.width + "x" + screen.height + "&depth=" + screen.colorDepth + "&referer=" + escape(document.referrer) + "&isp=" + info2+ "\"></" + "script>");
+        
